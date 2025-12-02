@@ -1,8 +1,8 @@
-# Alt-D Smart Fix ✨
+# Alt-A Smart Fix ✨
 
 <div align="center">
 
-![Alt-D Logo](https://img.shields.io/badge/Alt--D-Smart%20Fix-667eea?style=for-the-badge&logo=firefox&logoColor=white)
+![Alt-A Logo](https://img.shields.io/badge/Alt--A-Smart%20Fix-667eea?style=for-the-badge&logo=firefox&logoColor=white)
 ![Version](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 ![Firefox](https://img.shields.io/badge/Firefox-MV2-orange?style=for-the-badge&logo=firefox)
@@ -15,11 +15,11 @@
 
 ---
 
-## 🎯 What is Alt-D?
+## 🎯 What is Alt-A?
 
-Alt-D Smart Fix is a Firefox extension that lets you **select any text** in any input field, textarea, or content-editable region, press your configured keyboard shortcut (e.g., **`Alt + A`**), and instantly rewrite it using state-of-the-art AI models from [Groq](https://groq.com).
+Alt-A Smart Fix is a Firefox extension that lets you **select any text** in any input field, textarea, or content-editable region, press your configured keyboard shortcut (e.g., **`Alt + A`**), and instantly rewrite it using state-of-the-art AI models from [Groq](https://groq.com).
 
-Whether you're writing emails, crafting social media posts, coding documentation, or chatting — Alt-D helps you communicate more clearly and professionally in seconds.
+Whether you're writing emails, crafting social media posts, coding documentation, or chatting — Alt-A helps you communicate more clearly and professionally in seconds.
 
 ### ✨ Key Highlights
 
@@ -77,7 +77,7 @@ Whether you're writing emails, crafting social media posts, coding documentation
 ### Basic Usage
 
 1. **Select text** in any input field, textarea, or editable area
-2. **Press `Alt + D`** (or your configured shortcut)
+2. **Press `Alt + A`** (or your configured shortcut)
 3. **Watch the magic** — your text is instantly improved!
 
 ### Examples
@@ -90,7 +90,7 @@ Whether you're writing emails, crafting social media posts, coding documentation
 
 ### Floating Panel
 
-When you trigger Alt-D, a floating panel appears showing:
+When you trigger Alt-A, a floating panel appears showing:
 - Current status (Contacting model, processing, etc.)
 - Model name and parameter size
 - Minimize button with disable options
@@ -109,7 +109,7 @@ When you trigger Alt-D, a floating panel appears showing:
 ### Settings Page
 
 Access settings via:
-- Click the Alt-D extension icon → ⚙️ Settings
+- Click the Alt-A extension icon → ⚙️ Settings
 - Or right-click the icon → Options
 
 ### Available Settings
@@ -159,7 +159,7 @@ Access settings via:
 ## 🏗️ Project Structure
 
 ```
-altd/
+alta/
 ├── manifest.json           # Firefox extension manifest (MV2)
 ├── README.md               # This file
 ├── PRIVACY.md              # Privacy policy
@@ -199,7 +199,7 @@ altd/
 
 ### API Integration
 
-Alt-D uses the Groq API for AI processing:
+Alt-A uses the Groq API for AI processing:
 
 **Endpoint:** `https://api.groq.com/openai/v1/chat/completions`
 
@@ -212,7 +212,7 @@ Alt-D uses the Groq API for AI processing:
   "messages": [
     {
       "role": "system",
-      "content": "You are Alt-D, a precise text-editing assistant..."
+      "content": "You are Alt-A, a precise text-editing assistant..."
     },
     {
       "role": "user", 
@@ -224,7 +224,7 @@ Alt-D uses the Groq API for AI processing:
 
 ### Smart Fallback System
 
-When a model fails (404, rate limit, overloaded), Alt-D automatically tries the next model sorted by parameter size:
+When a model fails (404, rate limit, overloaded), Alt-A automatically tries the next model sorted by parameter size:
 
 ```
 1. User's selected model
@@ -250,7 +250,7 @@ When a model fails (404, rate limit, overloaded), Alt-D automatically tries the 
 
 ## 🔒 Privacy
 
-**Your privacy is our priority.** Alt-D is designed with privacy-first principles:
+**Your privacy is our priority.** Alt-A is designed with privacy-first principles:
 
 - ✅ **Local Storage Only** — API key stored in `browser.storage.local`, never synced
 - ✅ **No Tracking** — Zero analytics, telemetry, or user tracking
@@ -289,8 +289,8 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/altd.git
-cd altd
+git clone https://github.com/YOUR_USERNAME/alta.git
+cd alta
 
 # Load in Firefox (see Installation)
 # Make changes
@@ -313,7 +313,7 @@ cd altd
 ## ❓ FAQ
 
 <details>
-<summary><strong>Why should I use Alt+A instead of Alt+D?</strong></summary>
+<summary><strong>Why is the shortcut Alt+A?</strong></summary>
 
 Firefox reserves `Alt+D` for the address bar. We recommend `Alt+A` as the default, but you can configure any shortcut you prefer in `about:addons` → Manage Extension Shortcuts.
 </details>
@@ -342,7 +342,7 @@ Yes! Groq offers free API access with generous rate limits. No credit card requi
 <details>
 <summary><strong>Does it work offline?</strong></summary>
 
-No, Alt-D requires an internet connection to communicate with Groq's API.
+No, Alt-A requires an internet connection to communicate with Groq's API.
 </details>
 
 ---

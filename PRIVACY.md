@@ -1,4 +1,4 @@
-# Privacy Policy for Alt-D Smart Fix
+# Privacy Policy for Alt-A Smart Fix
 
 **Last Updated:** November 28, 2024
 
@@ -6,7 +6,7 @@
 
 ## 🔒 Overview
 
-Alt-D Smart Fix ("Alt-D", "we", "our", or "the extension") is committed to protecting your privacy. This privacy policy explains how we handle your data when you use our Firefox extension.
+Alt-A Smart Fix ("Alt-A", "we", "our", or "the extension") is committed to protecting your privacy. This privacy policy explains how we handle your data when you use our Firefox extension.
 
 **TL;DR:** We don't collect, store, or share your personal data. Everything stays on your device.
 
@@ -31,7 +31,7 @@ The following data is stored **only on your device** using Firefox's `browser.st
 | **Groq API Key** | Authenticate with Groq API | ❌ No |
 | **Settings** | Model, temperature, tone preferences | ❌ No |
 | **Model Cache** | Cache available models for 1 hour | ❌ No |
-| **Disabled Pages/Sites** | Remember where you disabled Alt-D | ❌ No |
+| **Disabled Pages/Sites** | Remember where you disabled Alt-A | ❌ No |
 
 **Important:** We explicitly use `browser.storage.local` (local-only storage). Your data is never uploaded to any cloud sync servers.
 
@@ -41,7 +41,7 @@ The following data is stored **only on your device** using Firefox's `browser.st
 
 ### Groq API Calls
 
-When you use Alt-D to fix text, the extension makes a direct API call to Groq:
+When you use Alt-A to fix text, the extension makes a direct API call to Groq:
 
 **Endpoint:** `https://api.groq.com/openai/v1/chat/completions`
 
@@ -83,7 +83,7 @@ Your Groq API key is:
 
 ## 🖥️ Local Processing
 
-Alt-D processes everything locally except for the AI model inference:
+Alt-A processes everything locally except for the AI model inference:
 
 | Process | Location |
 |---------|----------|
@@ -97,7 +97,7 @@ Alt-D processes everything locally except for the AI model inference:
 
 ## 👁️ Permissions Explained
 
-Alt-D requests the following Firefox permissions:
+Alt-A requests the following Firefox permissions:
 
 | Permission | Why We Need It | What We DON'T Do |
 |------------|----------------|------------------|
@@ -122,7 +122,7 @@ Alt-D requests the following Firefox permissions:
 
 ## 🔄 Third-Party Services
 
-The only third-party service Alt-D uses is:
+The only third-party service Alt-A uses is:
 
 ### Groq (groq.com)
 
@@ -136,13 +136,13 @@ We encourage you to review Groq's privacy policy to understand how they handle d
 
 ## 👶 Children's Privacy
 
-Alt-D is not intended for children under 13. We do not knowingly collect any information from children.
+Alt-A is not intended for children under 13. We do not knowingly collect any information from children.
 
 ---
 
 ## 🌍 International Users
 
-Alt-D is a client-side extension that stores data locally. Your data remains on your device regardless of your location. API calls to Groq are subject to Groq's data handling practices.
+Alt-A is a client-side extension that stores data locally. Your data remains on your device regardless of your location. API calls to Groq are subject to Groq's data handling practices.
 
 ---
 
@@ -151,11 +151,11 @@ Alt-D is a client-side extension that stores data locally. Your data remains on 
 You have full control over your data:
 
 ### View Your Data
-All settings are visible in the Alt-D options page.
+All settings are visible in the Alt-A options page.
 
 ### Delete Your Data
 1. Go to `about:addons`
-2. Find "Alt-D Smart Fix"
+2. Find "Alt-A Smart Fix"
 3. Click "Remove"
 4. All local data is automatically deleted
 
@@ -201,7 +201,7 @@ For privacy questions or concerns:
 
 <div align="center">
 
-**Your privacy matters. Alt-D is built to respect it.**
+**Your privacy matters. Alt-A is built to respect it.**
 
 [Back to README](README.md) • [View Source Code](https://github.com/adithyakrish0/alt-a-smartfix)
 
